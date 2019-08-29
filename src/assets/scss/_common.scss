@@ -1,0 +1,42 @@
+html, body {
+  font-size: 16px;
+}
+
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+.index-background {
+  background: #2F3939;
+}
+
+.display-1 {
+  font-size: 5.75em;
+}
+
+.logo {
+  background: url("../img/main-logo.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 257px;
+  height: 95px;
+  display: block;
+}
+
+.header-group-btn {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+
+  button:last-child {
+    margin-left: 20px;
+  }
+}
+
+.btn.btn-minerlink {
+  border-radius: 35px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 185px;
+}
