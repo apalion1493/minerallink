@@ -8,10 +8,28 @@ html, body {
 
 .index-background {
   background: #2F3939;
+  position: relative;
+  overflow: hidden;
+
+  &:before {
+    content: '';
+    background: url("../img/bg-main.svg") no-repeat center center;
+    //background-size: 100% auto;
+    width: 2475px;
+    height: 890px;
+    position: absolute;
+    bottom: -175px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
 
 .display-1 {
   font-size: 5.75em;
+}
+
+.h2 {
+  font-size: 2.875em;
 }
 
 .logo {
@@ -27,7 +45,7 @@ html, body {
   display: flex;
   align-items: center;
 
-  button:last-child {
+  a:last-child {
     margin-left: 20px;
   }
 }
@@ -39,4 +57,38 @@ html, body {
   align-items: center;
   justify-content: center;
   min-width: 185px;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+}
+
+.btn.btn-minerlink-big {
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-bg {
+  background: #2F3939;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-bg_img {
+  position: relative;
+  overflow: hidden;
+
+  &:before {
+    content: '';
+    background: url("../img/main-bg_img.svg") no-repeat center;
+    width: 2475px;
+    height: 890px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 230px;
+  }
 }
