@@ -1,0 +1,232 @@
+.dashboard-section {
+  margin-bottom: 92px;
+}
+
+.dashboard-section_mt {
+  margin-top: 165px;
+}
+
+.dashboard-container {
+  background: #009CB8;
+  border-radius: 20px;
+}
+
+.dashboard-container_radio {
+  padding: 50px 28px 48px;
+  width: 100%;
+  margin-right: 0;
+}
+
+.dashboard-container__label {
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #009CB8;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+
+    &:after {
+      content: "";
+      position: absolute;
+      display: none;
+      top: 2px;
+      left: 2px;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      border: 2px solid #FFFFFF;
+      background: #FFFFFF;
+    }
+  }
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+
+    &:checked ~ .checkmark {
+      background-color: #FFFFFF;
+    }
+
+    &:checked ~ .checkmark:after {
+      display: block;
+    }
+  }
+}
+
+.radio-block {
+  margin-left: 45px;
+  display: flex;
+  flex-direction: column;
+
+  .radio-block__mainInfo {
+    display: flex;
+    margin-bottom: 25px;
+  }
+
+  .radio-block__mainInfo-img {
+    min-width: 72px;
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+  }
+
+  .radio-block__mainInfo-bank {
+    background: url("../img/bxs-bank.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 72px;
+    height: 69px;
+    display: block;
+  }
+
+  .radio-block__mainInfo-text {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-weight: 500;
+      font-size: 1.75em;
+      line-height: 33px;
+      letter-spacing: 0.175px;
+      color: #FFFFFF;
+      margin-bottom: 11px;
+    }
+
+    span {
+      font-size: 1.375em;
+      line-height: 26px;
+      letter-spacing: 0.1375px;
+      color: #FFFFFF;
+    }
+  }
+
+  .radio-block__currency {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.1px;
+      color: #FFFFFF;
+      mix-blend-mode: normal;
+      opacity: 0.6;
+    }
+  }
+}
+
+.dashboard-section__h3 {
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0.225px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.dashboard-section__text {
+  font-size: 1em;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  text-align: center;
+  display: block;
+  margin-bottom: 80px;
+}
+
+.dashboard-container_wallets {
+  padding: 33px 30px 34px 40px;
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-container_wallets-img {
+  min-width: 72px;
+  display: flex;
+  justify-content: center;
+  margin-right: 32px;
+}
+
+.dashboard-container__icon-btc {
+  background: url("../img/first-screen__logo-bitcoin.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 72px;
+  height: 72px;
+  display: block;
+}
+
+.dashboard-container__icon-xrp {
+  background: url("../img/first-screen__logo-xrp.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 72px;
+  height: 72px;
+  display: block;
+}
+
+.dashboard-container__icon-eth {
+  background: url("../img/first-screen__logo-eth.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 44px;
+  height: 72px;
+  display: block;
+}
+
+.dashboard-container__icon-ltc {
+  background: url("../img/first-screen__logo-ltc.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 72px;
+  height: 72px;
+  display: block;
+}
+
+.dashboard-container_wallets-text {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    font-size: 1.375em;
+    line-height: 26px;
+    letter-spacing: 0.1375px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+  }
+
+  span {
+    text-decoration: underline;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    cursor: pointer;
+    font-size: 1em;
+  }
+}
+
+.dashboard-container_wallets-code {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin-left: auto;
+}
+
+.dashboard-section__tab-content {
+  margin-top: 33px;
+}
+
+.dashboard-section__table {
+  background: #009CB8;
+  border-radius: 20px;
+}

@@ -35,7 +35,8 @@ function styles() {
 
 function scripts() {
 
-    return gulp.src('./src/assets/js/main.js')
+    return gulp.src('./src/assets/js/**/*.js')
+        //.pipe(concat('main.js'))
         .pipe(plumber())
         .pipe(rigger())
         .pipe(gulp.dest('./build/assets/js'))

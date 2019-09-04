@@ -30,15 +30,22 @@
     <section class="form-section">
         <div class="form form_sign-in">
             <span class="form__title">Sign in</span>
+            <span class="form-section__error show">Текст ошибки Текст ошибки Текст ошибки Текст ошибки Текст ошибки</span>
             <form action="" class="form__block">
                 <div class="form-group">
                     <label for="exampleInputText1">Phone number</label>
                     <input type="text" class="form-control" id="exampleInputText1" placeholder="+42">
+                    <div class="valid-feedback d-block"> <!--"d-block" добавил для отображения блока, нужно убрать-->
+                        Looks good!
+                    </div>
                 </div>
 
                 <div class="form-group mb-0">
                     <label for="exampleInputText2">User found</label>
                     <input type="text" class="form-control" id="exampleInputText2" placeholder="+42">
+                    <div class="invalid-feedback d-block"> <!--"d-block" добавил для отображения блока, нужно убрать-->
+                        Please provide a valid state.
+                    </div>
                 </div>
                 <span class="form__block-text">Enter one-time SMS. xx4421</span>
                 <button type="submit" class="btn btn-light btn-minerlink">Sign in</button>

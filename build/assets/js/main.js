@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".table-btn").click(function(){$(".test-class").toggle(),$(".table-btn-tr").remove()})});

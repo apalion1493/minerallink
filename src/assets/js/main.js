@@ -1,1 +1,11 @@
-// = ../../../node_modules/jquery/dist/jquery.min.js
+// = jquery/jquery.min.js
+// = bootstrap/bootstrap.min.js
+
+
+
+$(document).ready(function () {
+    $('.table-btn').click(function () {
+        $('.test-class').toggle();
+        $('.table-btn-tr').remove();
+    });
+});

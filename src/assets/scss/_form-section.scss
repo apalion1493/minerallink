@@ -135,3 +135,28 @@
   display: block;
   margin-bottom: 36px;
 }
+
+.form-section__error {
+  color: $red;
+  font-size: .875em;
+  line-height: 17px;
+  letter-spacing: .0875px;
+  margin-bottom: 7px;
+  mix-blend-mode: normal;
+  margin-top: -24px;
+  display: none;
+}
+
+.form-section__error.show {
+  display: block;
+}
+
+.valid-feedback {
+  font-size: .75em;
+  color: #FFFFFF;
+}
+
+.invalid-feedback {
+  font-size: .75em;
+  color: #FFFFFF;
+}

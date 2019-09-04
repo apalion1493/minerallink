@@ -1,0 +1,148 @@
+.dashboard-section__table {
+  padding: 36px 0 31px 50px;
+  color: #FFFFFF;
+
+  .table {
+    td, th, thead th {
+      border: none;
+      color: #FFFFFF;
+    }
+
+    th {
+      font-weight: 500;
+      font-size: 1.125em;
+      line-height: 21px;
+      letter-spacing: 0.1125px;
+    }
+
+    td {
+      line-height: 19px;
+      font-size: 1em;
+      letter-spacing: 0.1px;
+    }
+
+    thead th {
+      padding-bottom: 25px;
+
+
+    }
+  }
+
+  .table-btn {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.table-btn-tr {
+  position: relative;
+
+  .table-btn {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 85px;
+  }
+}
+
+.dashboard-section__table-login,
+.dashboard-section__table-income {
+  thead th:first-child {
+    width: 55px;
+  }
+
+  thead th:nth-child(2) {
+    width: 190px;
+  }
+
+  thead th:nth-child(3) {
+    width: 280px;
+  }
+
+  thead th:nth-child(4) {
+    width: 180px;
+  }
+
+  thead th:nth-child(5) {
+    width: 140px;
+  }
+
+  thead th:nth-child(6) {
+    width: 150px;
+  }
+}
+
+.dashboard-section__table-incoming {
+  thead th:first-child {
+    width: 55px;
+  }
+
+  thead th:nth-child(2) {
+    width: 205px;
+  }
+
+  thead th:nth-child(3) {
+    width: 210px;
+  }
+
+  thead th:nth-child(4) {
+    width: 180px;
+  }
+
+  thead th:nth-child(5) {
+    width: 350px;
+  }
+
+  thead th:nth-child(6) {
+    width: auto;
+    display: none;
+  }
+}
+
+.dashboard-section__table-exchange {
+  thead th:first-child {
+    width: 55px;
+  }
+
+  thead th:nth-child(2) {
+    width: 205px;
+  }
+
+  thead th:nth-child(3) {
+    width: 390px;
+  }
+
+  thead th:nth-child(4) {
+    width: 150px;
+  }
+
+  thead th:nth-child(5) {
+    width: 235px;
+  }
+
+  thead th:nth-child(6) {
+    width: auto;
+    display: none;
+  }
+}
+
+.test-class {
+  display: none;
+}
+
+.table-arrow {
+  background: url("../img/table-arrow.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 14px;
+  height: 9px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: inline-block;
+}
+
+.table-exchange__first-span {
+  max-width: 125px;
+  width: 100%;
+  display: inline-block;
+}

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300i,400,400i,500,500i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<main class="main-bg">
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <a class="logo logo_header" href="index.html"></a>
+                </div>
+                <div class="col-9 d-flex align-items-center">
+                    <div class="header-group-btn">
+                        <a href="register.html" class="btn btn-primary btn-minerlink">Register</a>
+                        <a href="Sign-in.html" class="btn btn-primary btn-minerlink">Sign</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="dashboard-section dashboard-section_mt">
+        <div class="container">
+            <h3 class="h3 dashboard-section__h3 mb-5">Withdraw to:</h3>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-check form-check-inline dashboard-container dashboard-container_radio">
+                        <label class="dashboard-container__label">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <div class="radio-block">
+                            <div class="radio-block__mainInfo">
+                                <div class="radio-block__mainInfo-img">
+                                    <i class="radio-block__mainInfo-bank"></i>
+                                </div>
+                                <div class="radio-block__mainInfo-text">
+                                    <p>Bank account</p>
+                                    <span>IBAN: 5125781627612321</span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center radio-block__currency">
+                                <span class="mr-3">Min 5 EUR</span>
+                                <span>Max 150 000 EUR</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-check form-check-inline dashboard-container dashboard-container_radio">
+                        <label class="dashboard-container__label">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <div class="radio-block">
+                            <div class="radio-block__mainInfo">
+                                <div class="radio-block__mainInfo-img">
+                                    <i class="radio-block__mainInfo-bank"></i>
+                                </div>
+                                <div class="radio-block__mainInfo-text">
+                                    <p>Bank card</p>
+                                    <span>5125 7816 2761 2321</span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center radio-block__currency">
+                                <span class="mr-3">Min 5 EUR</span>
+                                <span>Max 150 000 EUR</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dashboard-section">
+        <div class="container">
+            <h3 class="h3 dashboard-section__h3 mb-3">Wallets for exchange</h3>
+            <span class="dashboard-section__text">Refill wallet for exchange</span>
+            <div class="row">
+                <div class="col-6">
+                    <div class="dashboard-container dashboard-container_wallets">
+                        <div class="dashboard-container_wallets-img">
+                            <i class="dashboard-container__icon-btc"></i>
+                        </div>
+                        <div class="dashboard-container_wallets-text">
+                            <p>gfy36jrwdt263yh43ehfw</p>
+                            <span>Copy</span>
+                        </div>
+                        <span class="dashboard-container_wallets-code" style="background-image: url(assets/img/qr-code.svg);"></span>
+                    </div>
+                    <div class="dashboard-container dashboard-container_wallets">
+                        <div class="dashboard-container_wallets-img">
+                            <i class="dashboard-container__icon-xrp"></i>
+                        </div>
+                        <div class="dashboard-container_wallets-text">
+                            <p>gfy36jrwdt263yh43ehfw</p>
+                            <span>Copy</span>
+                        </div>
+                        <span class="dashboard-container_wallets-code" style="background-image: url(assets/img/qr-code.svg);"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="dashboard-container dashboard-container_wallets">
+                        <div class="dashboard-container_wallets-img">
+                            <i class="dashboard-container__icon-eth"></i>
+                        </div>
+                        <div class="dashboard-container_wallets-text">
+                            <p>gfy36jrwdt263yh43ehfw</p>
+                            <span>Copy</span>
+                        </div>
+                        <span class="dashboard-container_wallets-code" style="background-image: url(assets/img/qr-code.svg);"></span>
+                    </div>
+                    <div class="dashboard-container dashboard-container_wallets">
+                        <div class="dashboard-container_wallets-img">
+                            <i class="dashboard-container__icon-ltc"></i>
+                        </div>
+                        <div class="dashboard-container_wallets-text">
+                            <p>gfy36jrwdt263yh43ehfw</p>
+                            <span>Copy</span>
+                        </div>
+                        <span class="dashboard-container_wallets-code" style="background-image: url(assets/img/qr-code.svg);"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dashboard-section">
+        <div class="container">
+            <h3 class="h3 dashboard-section__h3 mb-3">Operations</h3>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="home" aria-selected="true">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="incoming-tab" data-toggle="tab" href="#incoming" role="tab" aria-controls="profile" aria-selected="false">Incoming (crypto)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="exchange-tab" data-toggle="tab" href="#exchange" role="tab" aria-controls="contact" aria-selected="false">Exchange</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="income-tab" data-toggle="tab" href="#income" role="tab" aria-controls="contact" aria-selected="false">Income (EUR)</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content dashboard-section__tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                            <div class="dashboard-section__table dashboard-section__table-login">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">Outgoing transaction</th>
+                                            <th scope="col">Servie fee</th>
+                                            <th scope="col">Type</th>
+                                            <th scope="col">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>12.12.2019 12:51</td>
+                                            <td>EUR (24 214,42)</td>
+                                            <td>EUR (14)</td>
+                                            <td>SEPA</td>
+                                            <td>Completed</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>12.12.2019 12:51</td>
+                                            <td>EUR (1 421)</td>
+                                            <td>EUR (14)</td>
+                                            <td>VISA</td>
+                                            <td>In progress</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>12.12.2019 12:51</td>
+                                            <td>EUR (24 214,42)</td>
+                                            <td>EUR (14)</td>
+                                            <td>SEPA</td>
+                                            <td>Completed</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>12.12.2019 12:51</td>
+                                            <td>EUR (1 421)</td>
+                                            <td>EUR (14)</td>
+                                            <td>VISA</td>
+                                            <td>In progress</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>12.12.2019 12:51</td>
+                                            <td>EUR (1 421)</td>
+                                            <td>EUR (14)</td>
+                                            <td>VISA</td>
+                                            <td>In progress</td>
+                                        </tr>
+                                        <tr class="table-btn-tr">
+                                            <td></td>
+                                            <td></td>
+                                            <td class="d-flex justify-content-end pt-4">
+                                               <span class="table-btn">Show more</span>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr class="test-class">
+                                            <td>6</td>
+                                            <td>12.12.2019 12:51</td>
+                                            <td>EUR (1 421)</td>
+                                            <td>EUR (14)</td>
+                                            <td>VISA</td>
+                                            <td>In progress</td>
+                                        </tr>
+                                        <tr class="test-class">
+                                            <td>7</td>
+                                            <td>12.12.2019 12:51</td>
+                                            <td>EUR (1 421)</td>
+                                            <td>EUR (14)</td>
+                                            <td>VISA</td>
+                                            <td>In progress</td>
+                                        </tr>
+                                        <tr class="test-class">
+                                            <td>8</td>
+                                            <td>12.12.2019 12:51</td>
+                                            <td>EUR (1 421)</td>
+                                            <td>EUR (14)</td>
+                                            <td>VISA</td>
+                                            <td>In progress</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="incoming" role="tabpanel" aria-labelledby="incoming-tab">
+                            <div class="dashboard-section__table dashboard-section__table-incoming">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Cryptocurrency</th>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col">Status</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>BTC</td>
+                                        <td>0,00512512</td>
+                                        <td>Completed</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>LTC</td>
+                                        <td>0,00512512</td>
+                                        <td>In progress</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>XRP</td>
+                                        <td>0,00512512</td>
+                                        <td>Completed</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>ETH</td>
+                                        <td>0,00512512</td>
+                                        <td>In progress</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>BTC</td>
+                                        <td>0,00512512</td>
+                                        <td>In progress</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="table-btn-tr">
+                                        <td></td>
+                                        <td></td>
+                                        <td class="d-flex justify-content-end pt-4">
+                                            <span class="table-btn">Show more</span>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="test-class">
+                                        <td>4</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>ETH</td>
+                                        <td>0,00512512</td>
+                                        <td>In progress</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="test-class">
+                                        <td>4</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>ETH</td>
+                                        <td>0,00512512</td>
+                                        <td>In progress</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="test-class">
+                                        <td>4</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>ETH</td>
+                                        <td>0,00512512</td>
+                                        <td>In progress</td>
+                                        <td></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="exchange" role="tabpanel" aria-labelledby="exchange-tab">
+                            <div class="dashboard-section__table dashboard-section__table-exchange">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Exchange</th>
+                                        <th scope="col">Type</th>
+                                        <th scope="col">Status</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td><span class="table-exchange__first-span">BTC (0,0042151)</span> <span class="table-arrow"></span> <span class="table-exchange__second-span">EUR (24 214,42)</span></td>
+                                        <td>SEPA</td>
+                                        <td>Completed</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td><span class="table-exchange__first-span">LTC (4,4217491)</span> <span class="table-arrow"></span> <span class="table-exchange__second-span">EUR (1 421)</span></td>
+                                        <td>VISA)</td>
+                                        <td>In progress</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td><span class="table-exchange__first-span">XRP (5,2412424)</span> <span class="table-arrow"></span> <span class="table-exchange__second-span">EUR (41 121,42)</span></td>
+                                        <td>SEPA</td>
+                                        <td>Completed</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td><span class="table-exchange__first-span">ETH (2,4512522)</span> <span class="table-arrow"></span> <span class="table-exchange__second-span">EUR (1 421,21)</span></td>
+                                        <td>VISA</td>
+                                        <td>In progress</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td><span class="table-exchange__first-span">BTC (0,0042141)</span> <span class="table-arrow"></span> <span class="table-exchange__second-span">EUR (1 212)</span></td>
+                                        <td>VISA</td>
+                                        <td>In progress</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="table-btn-tr">
+                                        <td></td>
+                                        <td></td>
+                                        <td class="d-flex justify-content-end pt-4">
+                                            <span class="table-btn">Show more</span>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="test-class">
+                                        <td>5</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td><span class="table-exchange__first-span">BTC (0,0042141)</span> <span class="table-arrow"></span> <span class="table-exchange__second-span">EUR (1 212)</span></td>
+                                        <td>VISA</td>
+                                        <td>In progress</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="test-class">
+                                        <td>5</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td><span class="table-exchange__first-span">BTC (0,0042141)</span> <span class="table-arrow"></span> <span class="table-exchange__second-span">EUR (1 212)</span></td>
+                                        <td>VISA</td>
+                                        <td>In progress</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="test-class">
+                                        <td>5</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td><span class="table-exchange__first-span">BTC (0,0042141)</span> <span class="table-arrow"></span> <span class="table-exchange__second-span">EUR (1 212)</span></td>
+                                        <td>VISA</td>
+                                        <td>In progress</td>
+                                        <td></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="income" role="tabpanel" aria-labelledby="income-tab">
+                            <div class="dashboard-section__table dashboard-section__table-income">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Outgoing transaction</th>
+                                        <th scope="col">Servie fee</th>
+                                        <th scope="col">Servie fee</th>
+                                        <th scope="col">Status</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>EUR (24 214,42)</td>
+                                        <td>EUR (14)</td>
+                                        <td>SEPA</td>
+                                        <td>Completed</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>EUR (24 214,42)</td>
+                                        <td>EUR (14)</td>
+                                        <td>VISA</td>
+                                        <td>In progress</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>EUR (24 214,42)</td>
+                                        <td>EUR (14)</td>
+                                        <td>SEPA</td>
+                                        <td>Completed</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>EUR (24 214,42)</td>
+                                        <td>EUR (14)</td>
+                                        <td>VISA</td>
+                                        <td>In progress</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>EUR (24 214,42)</td>
+                                        <td>EUR (14)</td>
+                                        <td>VISA</td>
+                                        <td>In progress</td>
+                                    </tr>
+                                    <tr class="table-btn-tr">
+                                        <td></td>
+                                        <td></td>
+                                        <td class="d-flex justify-content-end pt-4">
+                                            <span class="table-btn">Show more</span>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="test-class">
+                                        <td>6</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>EUR (1 421)</td>
+                                        <td>EUR (14)</td>
+                                        <td>VISA</td>
+                                        <td>In progress</td>
+                                    </tr>
+                                    <tr class="test-class">
+                                        <td>7</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>EUR (1 421)</td>
+                                        <td>EUR (14)</td>
+                                        <td>VISA</td>
+                                        <td>In progress</td>
+                                    </tr>
+                                    <tr class="test-class">
+                                        <td>8</td>
+                                        <td>12.12.2019 12:51</td>
+                                        <td>EUR (1 421)</td>
+                                        <td>EUR (14)</td>
+                                        <td>VISA</td>
+                                        <td>In progress</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-first-row">
+                <a href="#">Privacy Policy</a>
+                <a href="#">KYC/AML Policy Terms of Service Refund Policy Fees and Limits</a>
+                <a href="#">Contact us</a>
+            </div>
+            <div class="footer-second-row">
+                <p>MINERLINK OU #14668747</p>
+                <span>|</span>
+                <p>Licence #FVR000747 # FRK000651</p>
+            </div>
+            <div class="footer-third-row">
+                <p>Copyright @ 2019 - Minerlink - All Rights Reserved</p>
+            </div>
+            <div class="footer-fourth-row">
+                <p>Risk disclamer: Trading foreign currencies can be a challenging and potentially profitable opportunity for investors. However, before deciding to participate in the Forex market, you should carefully consider your investment objectives, level of experience, and risk appetite. Most importantly, do not invest money you cannot afford to lose.</p>
+                <p>There is considerable exposure to risk in any foreign exchange transaction. Any transaction involving currencies involves risks including, but not limited to, the potential for changing political and/or economic conditions that may substantially affect the price or liquidity of a currency.</p>
+            </div>
+        </div>
+    </footer>
+</main>
+
+
+<script src="assets/js/jquery/jquery.min.js"></script>
+<script src="assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

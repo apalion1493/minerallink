@@ -32,6 +32,10 @@ html, body {
   font-size: 2.875em;
 }
 
+.h3 {
+  font-size: 2.25em;
+}
+
 .logo {
   background: url("../img/main-logo.svg") no-repeat center;
   background-size: 100% auto;
@@ -91,4 +95,34 @@ html, body {
     transform: translate(-50%,0);
     top: 230px;
   }
+}
+
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+  padding: 22px 44px;
+  margin-right: 15px;
+  border-color: #009CB8 #009CB8 #009CB8;
+  border-radius: 32.5px;
+  color: #FFFFFF;
+  transition: 0.3s;
+  font-weight: 500;
+  font-size: 1.125em;
+  line-height: 21px;
+  letter-spacing: 0.1125px;
+
+  &:hover {
+    background-color: #007c92;
+    border-color: #007185;
+    transition: 0.3s;
+  }
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #009CB8;
+  border-color: #009CB8 #009CB8 #009CB8;
+  color: #FFFFFF;
 }
