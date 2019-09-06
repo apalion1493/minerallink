@@ -28,48 +28,57 @@
         </div>
     </header>
     <section class="form-section">
-        <div class="form form_register-one">
-            <span class="form__title form__title-register">Register</span>
-            <span class="form__subtitle">Personal information</span>
-            <form action="" class="form__block">
-                <div class="form-group">
-                    <label for="exampleInputText1-1">Full name</label>
-                    <input type="text" class="form-control" id="exampleInputText1-1" placeholder="Name">
+        <div class="form_register">
+
+            <form action="" class="form__block form__block-register">
+                <div class="form mr-3">
+                    <span class="form__title form__title-register">Register</span>
+                    <span class="form__subtitle">Personal information</span>
+                    <div class="form-group">
+                        <label for="exampleInputText1-1">Full name</label>
+                        <input type="text" class="form-control" id="exampleInputText1-1" placeholder="Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputText1-2">Adress</label>
+                        <input type="text" class="form-control" id="exampleInputText1-2" placeholder="+42">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputText1-3">Email</label>
+                        <input type="email" class="form-control" id="exampleInputText1-3" placeholder="mail">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputText1-4">Phone</label>
+                        <input type="tel" name="tel" class="form-control" id="exampleInputText1-4" placeholder="+42">
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="exampleInputText1-2">Adress</label>
-                    <input type="text" class="form-control" id="exampleInputText1-2" placeholder="+42">
-                </div>
+                <div class="form ml-3">
+                    <span class="form__caption">Billing information</span>
+                    <span class="form__subject">Be careful. Data is filled once. You can't change it later</span>
 
-                <div class="form-group">
-                    <label for="exampleInputText1-3">Email</label>
-                    <input type="email" class="form-control" id="exampleInputText1-3" placeholder="mail">
-                </div>
+                    <div class="form-group">
+                        <label for="exampleInputText1">IBAN</label>
+                        <input type="text" class="form-control" id="exampleInputText1" placeholder="233">
+                    </div>
 
-                <div class="form-group">
-                    <label for="exampleInputText1-4">Phone</label>
-                    <input type="tel" name="tel" class="form-control" id="exampleInputText1-4" placeholder="+42">
+                    <div class="form-group mb-0">
+                        <label for="exampleInputText2">Bankcard number</label>
+                        <input type="text" class="form-control" id="exampleInputText2" placeholder="233">
+                    </div>
+                    <button type="submit" class="btn btn-light btn-minerlink mt-5">Register</button>
+                    <a class="form__block-link" href="#">I have an account</a>
                 </div>
             </form>
         </div>
-        <div class="form form_register-two">
-            <span class="form__caption">Billing information</span>
-            <span class="form__subject">Be careful. Data is filled once. You can't change it later</span>
-            <form action="" class="form__block">
-                <div class="form-group">
-                    <label for="exampleInputText1">IBAN</label>
-                    <input type="text" class="form-control" id="exampleInputText1" placeholder="233">
-                </div>
+        <!--<div class="form form_register-two">-->
 
-                <div class="form-group mb-0">
-                    <label for="exampleInputText2">Bankcard number</label>
-                    <input type="text" class="form-control" id="exampleInputText2" placeholder="233">
-                </div>
-                <button type="submit" class="btn btn-light btn-minerlink mt-5">Register</button>
-                <a class="form__block-link" href="#">I have an account</a>
-            </form>
-        </div>
+            <!--<form action="" class="form__block">-->
+
+            <!--</form>-->
+        <!--</div>-->
     </section>
     <footer class="footer">
         <div class="container footer-container">

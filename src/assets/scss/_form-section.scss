@@ -12,6 +12,9 @@
   background: #009CB8;
   border-radius: 20px;
   padding: 56px 53px 36px 53px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form_sign-in {
@@ -86,15 +89,15 @@
   margin-top: 27px;
 }
 
-.form_register-one {
+.form_register {
   margin-left: auto;
-  margin-right: 16px;
+  margin-right: auto;
 }
 
-.form_register-two {
-  margin-right: auto;
-  margin-left: 16px;
-}
+//.form_register-two {
+//  margin-right: auto;
+//  margin-left: 16px;
+//}
 
 .form__title.form__title-register {
   margin-bottom: 26px;
@@ -159,4 +162,9 @@
 .invalid-feedback {
   font-size: .75em;
   color: #FFFFFF;
+}
+
+.form__block.form__block-register {
+  flex-direction: row;
+  align-items: flex-start;
 }
